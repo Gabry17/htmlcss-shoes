@@ -29,7 +29,7 @@ h2{
     font-size:xx-large;
 }
 
-.nav a{
+nav > a{
     text-decoration: none;
     color: black;
     font-size: 1em;
@@ -45,7 +45,7 @@ h2{
     color: yellow;
 }
 
-.nav{
+nav{
     position: absolute;
     top: 3em;
     right: 0;
