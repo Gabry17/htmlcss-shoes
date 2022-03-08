@@ -6,6 +6,10 @@
 }
 
 /* COMMON */
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
 .content{
     width: 100%;
     height: 100vh;
@@ -25,11 +29,30 @@ h2{
     font-size:xx-large;
 }
 
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    background-color: white;
+    border-radius: 50%;
+    padding: .6em;
+    margin: .5em;
+}
+
 /* HEADER */
 .red{
     background-color: red;
     color: yellow;
 }
+
+.nav{
+    position: absolute;
+    top: 3em;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+}
+
 
 /* MAIN */
 .green{
